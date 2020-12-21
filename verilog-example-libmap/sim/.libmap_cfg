@@ -1,0 +1,11 @@
+
+library work    ../rtl/tb.v;
+library rtlLib  ../rtl/buf1.v;
+library gateLib ../rtl/buf2.v;
+
+config tb;
+	design work.tb;
+	default liblist work rtlLib;
+	instance tb.i_buf1 liblist gateLib;
+endconfig
+

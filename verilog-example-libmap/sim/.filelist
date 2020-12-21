@@ -1,0 +1,3 @@
+../rtl/tb.v
+../rtl/buf1.v
+../rtl/buf2.v

@@ -1,0 +1,17 @@
+A verilog example for libmap 
+
+o How to run
+    $ cd sim
+    $ bash .comp.sh
+
+o Directory hierarchy:
+.
+├── rtl
+│   ├── buf1.v
+│   ├── buf2.v
+│   └── tb.v
+└── sim
+    ├── .clean.sh
+    ├── .comp.sh
+    ├── .filelist
+    └── .libmap_cfg
