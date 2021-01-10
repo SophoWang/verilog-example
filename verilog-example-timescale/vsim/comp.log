@@ -1,0 +1,21 @@
+Command: vcs -sverilog +vcs+fsdbon -kdb -l comp.log -diag timescale -debug_accsee+all \
+-F ../tb.f -q
+module 'test' gets time unit '1 ns' from source code '/home/sopho/github/verilog-example/verilog-example-timescale/vsim/../tb/test.v', 1
+module 'test' gets time precision '10 ps' from source code '/home/sopho/github/verilog-example/verilog-example-timescale/vsim/../tb/test.v', 1
+module 'a' gets time unit '10 ns' from source code '/home/sopho/github/verilog-example/verilog-example-timescale/vsim/../tb/test.v', 22
+module 'a' gets time precision '1 ns' from source code '/home/sopho/github/verilog-example/verilog-example-timescale/vsim/../tb/test.v', 22
+module 'b' gets time unit '100 ns' from source code '/home/sopho/github/verilog-example/verilog-example-timescale/vsim/../tb/test.v', 46
+module 'b' gets time precision '10 ns' from source code '/home/sopho/github/verilog-example/verilog-example-timescale/vsim/../tb/test.v', 46
+
+Warning-[DRTZ] Detect delay value roundoff to 0
+  Delay from design or SDF file roundoff to 0 based on timescale
+  Please check dumped diagnostic file (timescale.txt).
+
+1 module and 0 UDP read.
+make[1]: Entering directory `/home/sopho/github/verilog-example/verilog-example-timescale/vsim/csrc' \
+
+ld -shared  -Bsymbolic  -o .//../simv.daidir//_csrc0.so objs/amcQw_d.o 
+rm -f _csrc0.so
+../simv up to date
+make[1]: Leaving directory `/home/sopho/github/verilog-example/verilog-example-timescale/vsim/csrc' \
+
